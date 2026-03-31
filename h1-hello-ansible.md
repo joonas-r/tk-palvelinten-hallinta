@@ -55,7 +55,7 @@ Luo oletuksena ed25519 avainparin, nimellä id_ed25519 kansioon ~/.ssh
 
     ssh-copy-id localhost
 
-Salasanan syöttämisen jälkeen kokeilin uudelleen `ssh localhost` ja tällä kertaa salasanaa ei kysytty. Julkinen avain siirtyi tiedostoon ~\.ssh\authorized_keys
+Salasanan syöttämisen jälkeen kokeilin uudelleen `ssh localhost` ja tällä kertaa salasanaa ei kysytty. Julkinen avain siirtyi tiedostoon ~/.ssh/authorized_keys
 
 ## c - Hei maailma, hei Ansible
 
