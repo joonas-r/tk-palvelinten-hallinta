@@ -152,15 +152,15 @@ Moduuli `systemd_service` mahdollistaa daemonien hallinnan (Ansible Docs 2026). 
 
 roles/apache/tasks/main.yml
 
-  - apt:
-    update-cache: true
-    name: "apache2"
-    state: latest
+    - apt:
+        update-cache: true
+        name: "apache2"
+        state: latest
 
-  - systemd_service:
-    name: "apache2"
-    enabled: true
-    state: "started"
+    - systemd_service:
+        name: "apache2"
+        enabled: true
+        state: "started"
 
 Lisäsin roolin "apache" site.yml tiedostoon ja ajoin pelikirjan.
 
